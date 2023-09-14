@@ -10,9 +10,6 @@ public class App {
         kart1.piloto = piloto1; //agregação
         kart2.piloto = piloto2; //agregação
 
-        Motor motor1 = new Motor();
-        Motor motor2 = new Motor(); 
-
         kart1.piloto.nome = "Francisco";
         kart1.piloto.vilao = false;
 
