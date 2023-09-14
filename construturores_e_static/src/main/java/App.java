@@ -61,10 +61,10 @@ public final class App
         System.out.println("Número de blocos criados: " + Bloco.getNumBlocos());
 
         jogador.jogadorDestruir(); //assim sempre vai dar o mesmo valor
-        System.out.println("Número de pontos do jogardor: " + jogador.getPontos());
+        System.out.println("Número de pontos do jogardor: " + Jogador.getPontos());
         //é só fazer dessa forma
         jogador.jogadorDestruir();
-        System.out.println("Número de pontos do jogardor: " + jogador.getPontos());
+        System.out.println("Número de pontos do jogardor: " + Jogador.getPontos());
       
       
         /* Jogador.jogadorDestruir();
