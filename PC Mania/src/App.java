@@ -38,7 +38,7 @@ public class App {
             {
                 case 1:
                     //computador
-                    cliente.computador[i] = new Computador(); //criando um novo objeto e atribuindo ao array, usando associação 
+                    cliente.computador[i] = new Computador(); //criando um novo objeto e atribuindo ao array, usando associação H
                     cliente.computador[i].marca = "Positivo";
                     cliente.computador[i].preco = 2300.00f;
 
